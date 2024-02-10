@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(194, 194, 194, 0.793);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav i{
+font-size: 16px;
+border: 2px solid rgb(0, 0, 0);
+padding: 5px 10px;
+border-radius: 50px;
+}
+#nav h3{
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 50px;
+    }
+    #nav h1{
+        font-weight: 700;
+        font-size: xx-large;
+        text-transform: capitalize;
+        width: 70%;
+    }
+    #nav button{
+        padding: 7px 12px;
+        border-radius: 50px;
+        border: 1.5px solid black;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: white;
+    }
+    /* #nav-part3{
+        .oranged{
+            background-color: orangered;
+        }
+    } */
+    #nav .oranged{
+            background-color: rgb(255, 1, 14);
+            color: white;
+            border: none;
+    }
+    #my{
+        color: rgba(16, 197, 203, 0.916);
+        font-size: 220px;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+    }
+    img{
+        height: 270px;
+        width: 250px;
+        object-fit: cover;
+        position: absolute;
+        top: 58%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-position: center;
+        border-radius: 45px;
+    }
+    #img1{
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+    #img2{
+        transform: translate(-50%, -50%) rotate(20deg);
+    }
+    #img3{
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+    #bottom{
+        position: absolute;
+        bottom: 5%;
+        left: 3%;
+        font-size: 17px;
+        
+    }
+    #nav-part2 i{
+        background-color: rgb(11, 218, 204);
+    }
+    #nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+    #footer{
+        position: absolute;
+        bottom: 3%;
+        left: 90%;
+    }
+    #arrow{
+        position: absolute;
+        bottom: 1.5%;
+        left: 50%;
+    }
+    #arrow{
+        font-size: 16px;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 5px 10px;
+        border-radius: 50px;
+        }
+        #footer i{
+            align-items: center;
+        justify-content: center;
+        margin: 5%;
+        }
+        #footer p{
+            font-size: small;
+        }
